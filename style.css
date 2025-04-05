@@ -1,0 +1,72 @@
+body {/* definindo o background com uma cor e uma png de textura */
+    background: url('public/brick-wall-dark.png') repeat;
+    background-color: #ffffff;
+}
+
+
+
+.navbar {
+    background-color: transparent;
+    padding: 2rem;
+    border-bottom: 1px solid #000000;
+
+}
+
+.nav-items {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 3rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item a {
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(6, 6, 6);
+    padding: 4px 0px;
+    transition: color 0.3s;
+}
+
+
+.nav-item a:hover { /* troca a cor do botão quando o mouse estiver em cima e adiciona uma linha em baixo do texto */
+    color: #494949;
+    border-bottom: 2px solid #089cd6;
+}
+
+.div-card { /* aqui defino a cor do fundo da div e coloco uma borda fazendo parecer um card */
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.322);
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.bt-whats {/* aqui estou retirando a personalização padrão do texto, trocando a cor e adicionando uma cor de fundo arredondada dando a impressão de botão */
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #25D366; 
+    transition: background-color 0.3s ease;
+}
+
+.bt-whats:hover {/* troca a cor do botão quando o mouse estiver em cima */
+    background-color: #128C7E; 
+}
+
+.bt-git {/* aqui estou retirando a personalização padrão do texto, trocando a cor e adicionando uma cor de fundo arredondada dando a impressão de botão */
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #272727; 
+    transition: background-color 0.3s ease;
+}
+
+.bt-git:hover {/* troca a cor do botão quando o mouse estiver em cima */
+    background-color: #000000; 
+}
